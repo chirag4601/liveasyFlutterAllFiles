@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:liveasy/constants/color.dart';
-import 'package:liveasy/constants/fontSize.dart';
-import 'package:liveasy/constants/spaces.dart';
 import 'package:liveasy/constants/theme..dart';
 import 'package:liveasy/providerClass/providerData.dart';
 import 'package:liveasy/screens/home.dart';
@@ -39,10 +37,6 @@ class _NavigationScreenState extends State<NavigationScreen> {
             showUnselectedLabels: true,
             unselectedItemColor: grey,
             selectedItemColor: grey,
-            // unselectedLabelStyle:
-            //     TextStyle(fontSize: size_5),
-            // selectedLabelStyle:
-            //     TextStyle(fontSize: size_5),
             items: <BottomNavigationBarItem>[
               BottomNavigationBarItem(
                 icon: BottomNavigationIconWidget(
